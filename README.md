@@ -25,7 +25,7 @@ Après avoir entrer une recherche vous pouvez basculer entre les résultats de t
 
 ### Défiler les liste de résultats trop longues
 
-L'extension limite l'affichage des résultats à 10. S'il y en a plus vous pouvez charger les 10 suivants en cliquant ou en appuyant sur "Entrer" dans la premère ligne décorée d'un image for :twisted_rightwards_arrows:.
+L'extension limite l'affichage des résultats à 10. S'il y en a plus vous pouvez charger les 10 suivants en cliquant ou en appuyant sur "Entrer" dans la premère ligne quand elle est décorée d'un icône :twisted_rightwards_arrows:.
 
 ## Installation et prérequis
 
