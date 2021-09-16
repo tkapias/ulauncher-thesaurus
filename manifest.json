@@ -1,0 +1,26 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Thésaurus",
+  "description": "Trouvez les synonymes et antonymes de la plupart des mots en français. 2 modèles de suggestions provenant de larousse.fr et cnrtl.fr.",
+  "developer_name": "Tomasz Kapias",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 1
+  },
+  "preferences": [
+    {
+      "id": "thesaurus_kw",
+      "type": "keyword",
+      "name": "Mot-clé, ",
+      "default_value": "the"
+    },
+    {
+      "id": "thesaurus_src",
+      "type": "select",
+      "name": "Site(s) internet source",
+      "description": "Choisissez le site sur lequel les suggestions seront sourcés. LAROUSSE assemble les mots par contextes, avec parfois des exemples, CNRTL présente une liste simple, adapté au copier/coller.",
+      "default_value": "larousse",
+      "options": ["larousse", "cnrtl"]
+    }
+  ]
+}
